@@ -85,3 +85,9 @@
 .site-header .logo-frame-left img { width: 105.5804%; height: 106.9085%; left: -2.7902%; top: -3.2815%; }
 .site-header .logo-frame-right img { width: 108.3246%; height: 121.7184%; left: -5.0580%; top: -11.2172%; }
 @media (max-width: 650px) { .site-header .logo-frame { height: 60px; } }
+/* Keep event details within their full-width divider lines. */
+.hero-copy { min-width: 0; }
+.hero-copy .facts { width: 100%; box-sizing: border-box; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.hero-copy .facts dd { white-space: normal; overflow-wrap: break-word; }
+@media (max-width: 950px) { .hero-copy .facts { grid-template-columns: 1fr; } }
+
