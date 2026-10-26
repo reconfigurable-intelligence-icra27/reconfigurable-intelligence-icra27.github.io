@@ -1,0 +1,87 @@
+/* EDIT: Change these colors to personalize the site. No build tools required. */
+:root{--ink:#17283f;--muted:#56677d;--paper:#fafbfd;--wash:#eef3f9;--line:#d3deeb;--accent:#b8d5f3;--dark:#142f54;--width:1120px}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:32px}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.65}a{color:inherit;text-underline-offset:5px}a:hover{text-decoration:underline}a:focus-visible{outline:3px solid #356da8;outline-offset:5px}p{margin:0 0 1rem}h1,h2,h3{line-height:1.12;letter-spacing:-.045em;margin:0 0 1.25rem}h1{font-size:clamp(1.5rem,3vw,3.2rem);font-weight:500}h1 em{font-family:Georgia,serif;font-weight:400}h2{font-size:clamp(2rem,4vw,3.2rem);font-weight:500}h3{font-size:1.2rem;letter-spacing:-.02em;margin-bottom:.5rem}.container{width:min(var(--width),calc(100% - 64px));margin-inline:auto}.muted,.small{color:var(--muted)}.small{font-size:.88rem}.site-header{border-bottom:1px solid var(--line)}.header-inner{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-block:22px}.wordmark{text-decoration:none;font-size:.85rem;font-weight:700;display:flex;align-items:center;gap:8px}.brand-mark{font-size:1.35rem;background:var(--dark);color:var(--accent);padding:0 7px}nav{display:flex;flex-wrap:wrap;gap:19px;font-size:.78rem}nav a{text-decoration:none}.hero{padding-top:46px}.hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:28px 60px;align-items:center}.hero-heading{grid-column:1 / -1}.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:.68rem;font-weight:700;margin-bottom:20px}.status-dot{display:inline-block;width:7px;height:7px;background:#315f91;border-radius:50%;margin-right:7px}.hero-description{font-size:1.25rem;max-width:450px}.hero-note{font-size:.83rem;color:var(--muted);max-width:440px}.actions{display:flex;gap:22px;flex-wrap:wrap;align-items:center;margin-top:29px}.button{display:inline-flex;gap:25px;align-items:center;background:var(--dark);color:white;padding:13px 19px;text-decoration:none;font-size:.82rem}.button:hover{background:#214775}.text-link{font-size:.8rem}.hero-art{position:relative;isolation:isolate;overflow:hidden;height:425px;background:var(--dark);background-image:linear-gradient(#ffffff08 1px,transparent 1px),linear-gradient(90deg,#ffffff08 1px,transparent 1px);background-size:28px 28px;color:var(--accent)}.art-label{position:absolute;top:25px;left:25px;font-size:.57rem;letter-spacing:.17em}.orbit{position:absolute;left:50%;top:47%;width:270px;height:270px;border:1px solid #b8d5f390;border-radius:50%;transform:translate(-50%,-50%) rotate(-30deg)}.orbit-two{height:110px;transform:translate(-50%,-50%) rotate(-40deg)}.orbit-three{height:110px;transform:translate(-50%,-50%) rotate(40deg)}.art-core{position:absolute;width:64px;height:64px;border-radius:50%;background:var(--accent);left:50%;top:47%;transform:translate(-50%,-50%);box-shadow:0 0 70px #b8d5f330}.axis{position:absolute;background:#b8d5f330}.axis-x{height:1px;width:90%;left:5%;top:47%}.axis-y{width:1px;height:75%;top:10%;left:50%}.art-caption{position:absolute;bottom:25px;left:25px;font-size:.85rem;line-height:1.5}.art-caption span{font-size:.68rem;color:#c1d3e7}.facts{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:65px;margin-bottom:0;padding-block:24px;gap:25px}dt{font-size:.69rem;text-transform:uppercase;letter-spacing:.09em;color:var(--muted)}dd{margin:5px 0 0;font-size:.96rem}.section{padding-block:60px}.split{display:grid;grid-template-columns:1fr 1.2fr;gap:90px}.lead{font-size:1.3rem}.prose{max-width:620px}.notice{border-left:3px solid #4b78a8;padding:15px 20px;background:var(--wash);font-size:.85rem;margin-top:30px}.tinted{background:var(--wash)}.section-heading{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:22px}.section-heading h2{margin-bottom:0}.section-heading>p{font-size:.85rem;color:var(--muted);margin:0}.topic-list{padding:0;margin:28px 0 0;list-style:none;display:grid;grid-template-columns:1fr 1fr;column-gap:50px}.topic-list li{border-top:1px solid #ccd9e7;padding:16px 0;font-size:1.1rem}.topic-list span{font-size:.7rem;color:var(--muted);margin-right:24px}.people-grid,.organizer-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}.portrait{height:170px;background:#e6edf5;display:flex;align-items:center;justify-content:center;font-size:.75rem;letter-spacing:.15em;color:#526b89;margin:8px 0 24px;border-bottom:3px solid #87a8cb}.person p,.organizer-grid p{margin-bottom:5px}.cfp{background:var(--dark);color:#f7faff}.cfp .eyebrow{color:var(--accent)}.cfp p{max-width:400px}.status-label{display:inline-block;background:var(--accent);color:var(--ink);font-size:.8rem;padding:10px 18px;margin-top:15px}.detail-list{margin:0}.detail-list div{display:flex;justify-content:space-between;gap:25px;border-bottom:1px solid #ffffff26;padding:11px 0}.detail-list dt{color:#dfe9f4;letter-spacing:0;text-transform:none;font-size:.85rem}.detail-list dd{font-size:.85rem;margin:0;color:var(--accent);white-space:nowrap}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;text-align:left}caption{text-align:left;color:var(--muted);font-size:.8rem;padding:7px 0 22px}th{font-size:.7rem;text-transform:uppercase;letter-spacing:.1em}th,td{padding:14px 15px;border-bottom:1px solid var(--line)}th:first-child,td:first-child{padding-left:0;width:18%}td{font-size:.95rem}.organizer-grid{margin-top:28px}.organizer-grid article{border-top:1px solid #ccd9e7;padding-top:18px}.contact{text-align:center}.contact .eyebrow{margin-bottom:20px}.contact p:last-child{color:var(--muted)}.site-footer{border-top:1px solid var(--line);padding-block:26px;font-size:.72rem;color:var(--muted)}.footer-inner{display:flex;flex-wrap:wrap;justify-content:space-between;gap:15px}.footer-inner p{margin:0}.skip-link{position:absolute;top:-100px;left:20px;padding:10px;background:white;z-index:5}.skip-link:focus{top:10px}
+@media(max-width:950px){.header-inner{align-items:start;flex-direction:column}.hero-grid{gap:30px}.hero-art{height:360px}.orbit{width:230px}.orbit-one{height:230px}.split{gap:40px}.wordmark{flex-wrap:wrap}}
+@media(max-width:650px){.container{width:calc(100% - 36px)}.hero{padding-top:32px}.hero-grid,.split{grid-template-columns:1fr}.hero-art{height:300px;margin-top:12px}.facts{grid-template-columns:1fr;gap:18px;margin-top:36px}.section{padding-block:42px}.section-heading{display:block}.section-heading>p{margin-top:18px}.topic-list,.people-grid,.organizer-grid{grid-template-columns:1fr}.portrait{height:145px}.people-grid{gap:30px}.topic-list{margin-top:24px}.split{gap:24px}nav{gap:12px 18px}.detail-list div{gap:12px}.footer-inner{flex-direction:column}.contact{text-align:left}.eyebrow{margin-bottom:20px}th,td{padding-right:8px;padding-left:8px}.actions{gap:18px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Conference logo before the workshop name. */
+.wordmark{flex-wrap:nowrap;gap:14px}.conference-logo{display:block;width:64px;height:auto;flex-shrink:0}
+.hero-copy .facts {
+  grid-template-columns: repeat(3, max-content);
+}
+/* Center the event details in one row with equal gaps. */
+.hero-copy .facts { grid-template-columns: repeat(3, max-content); justify-content: center; gap: 18px; text-align: center; margin: 28px 0 0; padding-block: 20px; }
+.hero-copy .facts dd { white-space: nowrap; font-size: 1rem; }
+@media (max-width: 950px) {
+  .hero-copy .facts { grid-template-columns: 1fr; gap: 18px; }
+  .hero-copy .facts dd { white-space: normal; font-size: .96rem; }
+}
+
+/* About text spans the full page content width. */
+#about .prose { max-width: none; width: 100%; }
+
+/* Left-align the event details while keeping the existing spacing. */
+.hero-copy .facts { justify-content: start; text-align: left; }
+
+/* ICRA logo beside the Call for papers navigation link. */
+.site-header nav { align-items: center; }
+.cfp-logo-group { display: inline-flex; align-items: center; gap: 14px; }
+.cfp-logo-group a { white-space: nowrap; }
+.icra-header-logo { display: block; width: 110px; height: auto; flex-shrink: 0; }
+
+/* Balanced header: readable text, compact logos, and predictable wrapping. */
+.header-inner { padding-block: 18px; min-height: 0; gap: 24px; }
+.wordmark { flex: 1 1 320px; min-width: 0; max-width: 400px; font-size: 1.1rem; line-height: 1.4; gap: 12px; }
+.wordmark > span > .muted { display: block; font-weight: 400; }
+.conference-logo { width: 112px; }
+.site-header nav { flex: 0 0 auto; gap: 14px; font-size: 1rem; line-height: 1.4; }
+.cfp-logo-group { gap: 10px; }
+.icra-header-logo { width: 160px; }
+@media (max-width: 1250px) {
+  .header-inner { flex-direction: column; align-items: flex-start; gap: 12px; }
+  .wordmark { flex: 0 1 auto; max-width: 100%; }
+  .site-header nav { width: 100%; flex-wrap: wrap; gap: 12px 18px; }
+}
+@media (max-width: 650px) {
+  .header-inner { padding-block: 15px; }
+  .conference-logo { width: 90px; }
+  .icra-header-logo { width: 130px; }
+}
+/* Organizer portrait. */
+.organizer-photo { display: block; width: 160px; max-width: 100%; aspect-ratio: 1; object-fit: cover; object-position: center top; border-radius: 8px; margin-bottom: 18px; }
+
+/* Five organizer columns, adapting to smaller screens. */
+.organizer-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.organizer-photo-placeholder { display: flex; align-items: center; justify-content: center; background: var(--line); color: var(--muted); font-size: .85rem; }
+@media (max-width: 950px) { .organizer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 650px) { .organizer-grid { grid-template-columns: 1fr; } }
+
+/* Consistent portrait frames for speaker photos and pending placeholders. */
+.person .portrait { width: 180px; max-width: 100%; height: auto; aspect-ratio: 4 / 5; }
+.person img.portrait { display: block; object-fit: cover; object-position: center 25%; }
+
+/* Topic dividers in the tentative program. */
+.program-topic th { padding: 14px 16px; background: var(--wash); color: var(--dark); font-size: .85rem; letter-spacing: .04em; text-transform: none; }
+
+/* Prominent, consistent section headings. */
+.section h2.section-title { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 700; line-height: 1.2; letter-spacing: -.025em; color: var(--dark); margin: 0 0 24px; }
+.section-heading h2.section-title { margin-bottom: 0; }
+.cfp h2.section-title { color: #f7faff; }
+
+/* Hero photo collage, shown in full without cropping. */
+.hero-image { display: block; width: 100%; height: auto; }
+
+/* Center organizer dividers, portraits, and text within each card. */
+.organizer-grid article { border-top: 0; padding-top: 0; text-align: center; }
+.organizer-grid article::before { content: ''; display: block; width: 160px; max-width: 100%; height: 1px; background: var(--line); margin: 0 auto 18px; }
+.organizer-grid .organizer-photo { margin-inline: auto; }
+
+/* Match visible logo heights, excluding each file's blank margins. */
+.site-header .logo-frame { position: relative; display: block; flex: 0 0 auto; height: 76px; overflow: hidden; }
+.site-header .logo-frame-left { aspect-ratio: 896 / 579; }
+.site-header .logo-frame-right { aspect-ratio: 949 / 419; }
+.site-header .logo-frame img { position: absolute; display: block; max-width: none; }
+.site-header .logo-frame-left img { width: 105.5804%; height: 106.9085%; left: -2.7902%; top: -3.2815%; }
+.site-header .logo-frame-right img { width: 108.3246%; height: 121.7184%; left: -5.0580%; top: -11.2172%; }
+@media (max-width: 650px) { .site-header .logo-frame { height: 60px; } }
